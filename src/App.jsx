@@ -31,10 +31,12 @@ export class App extends Component {
     )
   }
 }
-  class childComponent extends Component{
+  class ChildComponent extends Component{
     constructor(props) {
       super(props)
   }
   render() {
     return <h3>{this.props.name}</h3>
-export default App
+  }
+}
+export default App 
